@@ -1,0 +1,17 @@
+Inorder   : 10 20 25 30 45 50 55 60 70 
+Preorder  : 45 20 10 30 25 60 50 55 70 
+Postorder : 10 25 30 20 55 50 70 60 45 
+Height of BST (edges) = 3
+
+Key      BST cmps       Linear cmps   
+Searching 25 (BST)
+  Path: 45 20 30 25 -> FOUND
+  BST=4  Linear=8
+Searching 55 (BST)
+  Path: 45 60 50 55 -> FOUND
+  BST=4  Linear=9
+Searching 90 (BST)
+  Path: 45 60 70 -> NOT FOUND
+  BST=3  Linear=9
+
+Total comparisons: BST=11, Linear=26
